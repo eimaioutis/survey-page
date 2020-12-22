@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(139, 145, 145);
+    background-color: rgb(227, 233, 233);
 }
 h1{
   font-family: Arial, sans-serif;
@@ -24,8 +24,8 @@ label {
   padding: 10px;
   border-style: groove;
 }
-input[type=text], select {
-    width: 50%;
+#name {
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -33,3 +33,41 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
+#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#number {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#dropdown {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+h3{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+input[type=radio]{
+    background: #0DFF92;
+    font-family: Arial, sans-serif;
+  }
+ 
